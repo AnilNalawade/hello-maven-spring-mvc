@@ -4,10 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Log Out</title>
 </head>
 <body>
-<a href="home.jsp">click here</a>
+<%
+session.removeAttribute("uname");
+session.removeAttribute("pwd");
 
+%>
+<jsp:forward page="home.jsp"></jsp:forward>
 </body>
 </html>

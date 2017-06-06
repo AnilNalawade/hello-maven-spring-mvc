@@ -74,23 +74,23 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="src/main/resources/CarsoleImages/b1.jpg"  alt="Chania" />
+        <img src="CarsoleImages/b1.jpg"  alt="Chania" />
       </div>
 
       <div class="item">
-        <img src="src/main/resources/CarsoleImages/b2.jpg" alt="Chania" />
+        <img src="CarsoleImages/b2.jpg" alt="Chania" />
       </div>
     
       <div class="item">
-        <img src="src/main/resources/CarsoleImages/b3.jpg" alt="Flower" />
+        <img src="CarsoleImages/b3.jpg" alt="Flower" />
       </div>
 
       <div class="item">
-        <img src="src/main/resources/CarsoleImages/b8.jpg" alt="Flower" />
+        <img src="CarsoleImages/b8.jpg" alt="Flower" />
       </div>
 
       <div class="item">
-        <img src="src/main/resources/CarsoleImages/b11.jpg" alt="Flower" />
+        <img src="CarsoleImages/b11.jpg" alt="Flower" />
       </div>
     </div>
 
