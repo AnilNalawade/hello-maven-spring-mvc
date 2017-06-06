@@ -25,6 +25,7 @@ public class BaseController {
 		return VIEW_INDEX;
 
 	}
+	
 
 	@RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	public String welcomeName(@PathVariable String name, ModelMap model) {
@@ -35,5 +36,13 @@ public class BaseController {
 		return VIEW_INDEX;
 
 	}
+	
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String home(ModelMap model) {
+
+		return "home";
+
+	}
+
 
 }
